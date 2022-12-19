@@ -8,7 +8,8 @@ public class Circle
         radius = 1;
         Area = pi * radius * radius;
         circumference= 2 * pi * radius;
-        System.out.println("Area is " + radius);
+        System.out.println("given radius is " + radius);
+        System.out.println("Area is " + Area);
         System.out.println("Circumference is " + circumference);
     }
 
